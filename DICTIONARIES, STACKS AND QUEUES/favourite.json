@@ -1,0 +1,12 @@
+{
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "pages": 310,
+    "genres": [
+        "fantasy",
+        "adventure"
+    ],
+    "rating": 9.5,
+    "read": true
+}

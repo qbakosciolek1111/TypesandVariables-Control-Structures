@@ -1,0 +1,4 @@
+required_permissions = {"read", "write", "execute"}  # uprawnienia potrzebne do wykonania akcji
+user_permissions = {"read", "write"}  # uprawnienia, które ma użytkownik
+has_permissions = required_permissions.issubset(user_permissions)  # sprawdza, czy WSZYSTKIE wymagane uprawnienia są wśród uprawnień użytkownika
+print(has_permissions)  # wypisuje wynik: True lub False
